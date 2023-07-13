@@ -1,5 +1,4 @@
 import React from "react";
-
 class Hero extends React.Component {
   render() {
     return (
@@ -8,15 +7,12 @@ class Hero extends React.Component {
           {/* Hero for FREE version */}
           <section className="section-profile-cover section-shaped my-0">
             {/* Background circles */}
-            <div className="shape shape-style-1 shape-default">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-            </div>
+            <video controls>
+              <source
+                src={require("assets/img/icons/common/backVideo.mp4")}
+                type="video/mp4"
+              />
+            </video>
           </section>
         </div>
       </>

@@ -1,5 +1,6 @@
 import React from "react";
 import classnames from "classnames";
+
 // reactstrap components
 import {
   Container,
@@ -38,7 +39,7 @@ class Index extends React.Component {
           <Hero /> {/* 상단 영역 */}
           <section className="section">
             <Container>
-              <Card className="card-profile shadow mt--300">
+              <Card className="card-profile shadow mt--300" id="profile">
                 <div className="px-4">
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
@@ -133,13 +134,13 @@ class Index extends React.Component {
             </Container>
           </section>
           <section className="section section-components">
-            <Container>
+            <Container id="project">
               <Carousel /> {/* project 내용 */}
             </Container>
           </section>
           <section className="section bg-gradient-default">
             {/* <section className="section section-lg pt-lg-0 section-contact-us"> */}
-            <Container>
+            <Container id="contact">
               <Row className="justify-content-center">
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
