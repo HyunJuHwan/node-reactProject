@@ -19,8 +19,8 @@
   padding-bottom: $spacer * 2;
 }
 
-// Hero sections
-.section-hero {
+// BackGound sections
+.section-BackGound {
   @include media-breakpoint-up(md) {
     min-height: 500px;
   }
@@ -31,7 +31,7 @@
   position: relative;
   overflow: hidden;
 
-  &.section-hero {
+  &.section-BackGound {
     &:before {
       top: 680px;
     }

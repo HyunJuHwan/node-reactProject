@@ -56,7 +56,7 @@ class Landing extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <div className="position-relative">
-            {/* shape Hero */}
+            {/* shape BackGound */}
             <section className="section section-lg section-shaped pb-250">
               <div className="shape shape-style-1 shape-default">
                 <span />
@@ -127,7 +127,7 @@ class Landing extends React.Component {
                 </svg>
               </div>
             </section>
-            {/* 1st Hero Variation */}
+            {/* 1st BackGound Variation */}
           </div>
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>

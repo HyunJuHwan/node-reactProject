@@ -18142,7 +18142,7 @@ textarea[resize="horizontal"] {
 }
 
 @media (min-width: 768px) {
-  .section-hero {
+  .section-BackGound {
     min-height: 500px;
   }
 }
@@ -18151,7 +18151,7 @@ textarea[resize="horizontal"] {
   position: relative;
   overflow: hidden;
 }
-.section-shaped.section-hero:before {
+.section-shaped.section-BackGound:before {
   top: 680px;
 }
 .section-shaped .stars-and-coded {
