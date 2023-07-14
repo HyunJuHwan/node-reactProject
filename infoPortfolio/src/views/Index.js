@@ -39,7 +39,7 @@ class Index extends React.Component {
           <BackGound /> {/* 상단 영역 */}
           <section className="section">
             <Container>
-              <Card className="card-profile shadow mt--300" id="profile">
+              <Card className="card-profile shadow mt--450">
                 <div className="px-4">
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
@@ -48,7 +48,8 @@ class Index extends React.Component {
                           <img
                             alt="..."
                             className="rounded-circle"
-                            src={require("assets/img/theme/team-4-800x800.jpg")}
+                            src={require("assets/img/icons/common/profile.png")}
+                            id="profile"
                           />
                         </a>
                       </div>
@@ -57,54 +58,60 @@ class Index extends React.Component {
                       className="order-lg-3 text-lg-right align-self-lg-center"
                       lg="4"
                     ></Col>
-                    <Col className="order-lg-1" lg="4"></Col>
+                    <Col className="order-lg-1" lg="4">
+                      <div className="card-profile-stats d-flex justify-content-center">
+                        <div>
+                          <span className="heading">&nbsp;</span>
+                          <span className="description">&nbsp;</span>
+                        </div>
+                      </div>
+                    </Col>
                   </Row>
-                  <div className="text-left mt-5">
+                  <div
+                    className="text-left mt-5"
+                    style={{ marginLeft: "20px" }}
+                  >
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      현주환{" "}
+                      <span
+                        className="font-weight-light"
+                        style={{ fontSize: "large" }}
+                      >
+                        1997.03.06
+                      </span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      서울특별시 송파구
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Web Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      <p>
+                        2022. 04 ~ 2022. 12 <br />
+                        위쉬정보기술 개발팀 대리
+                        <br />
+                        2022. 12 ~
+                        <br />
+                        네이버시스템 솔루션개발팀 선임 연구원
+                      </p>
                     </div>
-                  </div>
-                  <div className="mt-5 py-5 border-top text-center">
-                    <Row className="justify-content-center">
-                      <Col lg="9">
-                        <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
-                        </p>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          Show more
-                        </a>
-                      </Col>
-                    </Row>
                   </div>
                 </div>
               </Card>
             </Container>
           </section>
-          <section className="section section-components">
-            <Container id="project">
+          <section className="section section-components" id="project">
+            <Container>
               <Carousel /> {/* project 내용 */}
             </Container>
           </section>
-          <section className="section bg-gradient-default">
+          <section className="section bg-gradient-default" id="contact">
             {/* <section className="section section-lg pt-lg-0 section-contact-us"> */}
-            <Container id="contact">
+            <Container>
               <Row className="justify-content-center">
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
