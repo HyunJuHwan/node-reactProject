@@ -28,14 +28,14 @@ class BackGound extends React.Component {
               </p>
               <p
                 style={{
-                  marginTop: "-34px",
+                  marginTop: "-20px",
                   textAlign: "center",
                   fontSize: "18px",
                   color: "#ffffff",
                   fontFamily: "monospace",
                 }}
               >
-                -헨리 포드-
+                - 헨리 포드 -
               </p>
             </div>
           </section>
