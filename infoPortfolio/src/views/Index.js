@@ -150,7 +150,7 @@ class Index extends React.Component {
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
-                            placeholder="Your name"
+                            placeholder="이름"
                             type="text"
                             onFocus={(e) =>
                               this.setState({ nameFocused: true })
@@ -173,7 +173,7 @@ class Index extends React.Component {
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
-                            placeholder="Email address"
+                            placeholder="Email"
                             type="email"
                             onFocus={(e) =>
                               this.setState({ emailFocused: true })
