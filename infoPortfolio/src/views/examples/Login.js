@@ -4,9 +4,9 @@
 * Argon Design System React - v1.1.2
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
+* Product Page: https://www.creative-tim.com/product/main-react
 * Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/main-react/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -35,7 +35,7 @@ import {
 } from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
+import InfoNavbar from "components/Navbars/InfoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 class Login extends React.Component {
@@ -47,7 +47,7 @@ class Login extends React.Component {
   render() {
     return (
       <>
-        <DemoNavbar />
+        <InfoNavbar />
         <main ref="main">
           <section className="section section-shaped section-lg">
             <div className="shape shape-style-1 bg-gradient-default">

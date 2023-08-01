@@ -17,7 +17,7 @@ import {
 } from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
+import InfoNavbar from "components/Navbars/InfoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
@@ -34,7 +34,7 @@ class Index extends React.Component {
   render() {
     return (
       <>
-        <DemoNavbar />
+        <InfoNavbar />
         <main ref="main" className="profile-page">
           <BackGound /> {/* 상단 영역 */}
           <section className="section bg-secondary" id="profile">
