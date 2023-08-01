@@ -1,4 +1,6 @@
-/**module, controller, route 분리 필요 */
+/**module, controller, route 분리 필요
+ * .env 파일 계정정보 보안필요. 로컬 DB로 작업 or 커밋x
+ */
 const nodemailer = require("nodemailer");
 
 const main = async () => {
